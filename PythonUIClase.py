@@ -5,7 +5,7 @@ class VentanaPrincipal(QMainWindow):
     def saludar(self, e):
         ventanaSaludo = QMessageBox()
         nombre = self.textoNombre.text()
-        ventanaSaludo.setText("Hola, " + nombre)
+        ventanaSaludo.setText("¡Hola, " + nombre + "!")
         ventanaSaludo.setWindowTitle("Mensaje de saludo")
         ventanaSaludo.exec_()
 
